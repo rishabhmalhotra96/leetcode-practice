@@ -1,0 +1,30 @@
+[
+  {
+    "id": 121,
+    "title": "Best Time to Buy and Sell Stock",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "Easy",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Facebook",
+      "Apple"
+    ],
+    "topics": [
+      "Array",
+      "Dynamic Programming",
+      "Sliding Window"
+    ],
+    "status": "SOLVED",
+    "hint_level": "NONE",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)",
+    "key_insight": "Track the minimum price seen so far (buy candidate). At each step compute profit = current - min_price and update max_profit. Single left-to-right pass; no nested loops needed.",
+    "pitfalls": "Don't reset min_price after computing profit – keep the global min.",
+    "last_reviewed": "2026-04-18",
+    "next_review": "2026-04-25",
+    "confidence": 5,
+    "file": "solutions/lc_0121_best_time_to_buy_and_sell_stock.py"
+  }
+]
